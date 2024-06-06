@@ -167,6 +167,24 @@ main {
     }
 }
 
+.alternativas label#correta{
+    outline: 3px solid var(--green);
+
+    & span {
+        background: var(--green);
+        color: var(--white);
+    }
+}
+
+.alternativas label#erradas{
+    outline: 3px solid var(--red);
+
+    & span {
+        background: var(--red);
+        color: var(--white);
+    }
+}
+
 .alternativas div {
     display: flex;
     align-items: center;
