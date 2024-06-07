@@ -198,4 +198,17 @@ main button:hover {
         width: 20px;
         height: 20px;
     }
+
+    main {
+        display: flex;
+    }
+
+    main h2,
+    main > div {
+        width: 100%;
+    }
+
+    main h2 {
+        font-size: 64px;
+    }
 }
