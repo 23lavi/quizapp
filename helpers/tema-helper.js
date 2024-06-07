@@ -1,3 +1,5 @@
+
+
 export function trocarTema(tema, body, botaoTema) {
     if (localStorage.getItem("tema"))
         tema = localStorage.getItem("tema")
